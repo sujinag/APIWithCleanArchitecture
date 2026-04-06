@@ -18,7 +18,7 @@ struct QuotesUIView: View {
         List{
             ForEach(quotesViewModel.quotes,id:\.id){ items in
                 Text(items.production)
-                DisclosureGroup("DetailsDisclousres!"){
+                DisclosureGroup("QuotesDetails!"){
                     VStack(alignment: .trailing){
                         Text(items.quote)
 
