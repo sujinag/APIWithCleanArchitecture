@@ -305,6 +305,13 @@
 			path = Issues;
 			sourceTree = "<group>";
 		};
+		A43756192F8395E2004C7A22 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		A4464C492F6D4FA40051A91B /* Members */ = {
 			isa = PBXGroup;
 			children = (
@@ -369,6 +376,7 @@
 				A4264DF12F72937C009D3DA1 /* IssuesView.swift */,
 				A4910E3D2F75411F0068838A /* FollowersView.swift */,
 				A4C27ADC2F7BAA8200A75168 /* QuotesUIView.swift */,
+				A43756192F8395E2004C7A22 /* New Group */,
 				A4C27ACB2F7BA53900A75168 /* Quotes */,
 				A4910E2C2F7539930068838A /* Followers */,
 				A4264DE02F728E37009D3DA1 /* Issues */,
