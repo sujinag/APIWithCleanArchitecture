@@ -22,7 +22,7 @@ struct FollowersView: View {
                 VStack {
                     Text(item.name)
                     Text("\(item.id)")
-                    Text("Followers Edited")
+                    Text("Followers Re-Edited")
                     
                     
                 }
