@@ -30,8 +30,9 @@ struct APIWithCleanArchitectureApp: App {
             
            // FollowersView(followersViewMOdel: FollowersViewModel(useCase: UseCaseFollowersIMPL(repo: UserRepoFollowersIMPL(api: FollowersApiManager()))))
 
-            QuotesUIView(quotesViewModel: QuotesViewModel(useCase: QuotesUseCaseIMPL(repo: QuotesUserRepoIMPL(api: QuotesAPIInfra()))))
+          //  QuotesUIView(quotesViewModel: QuotesViewModel(useCase: QuotesUseCaseIMPL(repo: QuotesUserRepoIMPL(api: QuotesAPIInfra()))))
 
+            DeathsView(deathsViewModel: DeathsViewModel(useCase: DeathsUseCaseIMPL(repo: DeathsUserRepoIMPL(deathsInfra: DeathsInfra()))))
 
         }
     }

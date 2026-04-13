@@ -60,6 +60,15 @@
 		A47D18A42F56BE8A0074721F /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47D18A32F56BE8A0074721F /* UserRepository.swift */; };
 		A47D18A62F56BFBE0074721F /* UserCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47D18A52F56BFBE0074721F /* UserCaseImpl.swift */; };
 		A47D18A82F56C0200074721F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47D18A72F56C0200074721F /* ViewModel.swift */; };
+		A47ED6742F84F23F0000CC71 /* DeathsDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47ED6732F84F23F0000CC71 /* DeathsDomain.swift */; };
+		A47ED6762F84F3340000CC71 /* DeathsDomainDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47ED6752F84F3340000CC71 /* DeathsDomainDTO.swift */; };
+		A47ED6782F8CBFA60000CC71 /* DeathsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47ED6772F8CBFA50000CC71 /* DeathsUseCase.swift */; };
+		A47ED67A2F8CBFDF0000CC71 /* DeathsUserRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47ED6792F8CBFDF0000CC71 /* DeathsUserRepo.swift */; };
+		A47ED67C2F8CC02A0000CC71 /* DeathsInfra.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47ED67B2F8CC02A0000CC71 /* DeathsInfra.swift */; };
+		A47ED67E2F8CC1860000CC71 /* DeathsUserRepoIMPL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47ED67D2F8CC1860000CC71 /* DeathsUserRepoIMPL.swift */; };
+		A47ED6802F8CC3730000CC71 /* DeathsUseCaseIMPL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47ED67F2F8CC3730000CC71 /* DeathsUseCaseIMPL.swift */; };
+		A47ED6822F8CC5210000CC71 /* DeathsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47ED6812F8CC5210000CC71 /* DeathsViewModel.swift */; };
+		A47ED6842F8CC7180000CC71 /* DeathsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47ED6832F8CC7180000CC71 /* DeathsView.swift */; };
 		A4910E2E2F7539AD0068838A /* DomainFollowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4910E2D2F7539AD0068838A /* DomainFollowers.swift */; };
 		A4910E302F753A7A0068838A /* DomainDTOFollowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4910E2F2F753A7A0068838A /* DomainDTOFollowers.swift */; };
 		A4910E322F753BDB0068838A /* FollowersInfra.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4910E312F753BDB0068838A /* FollowersInfra.swift */; };
@@ -182,6 +191,15 @@
 		A47D18A32F56BE8A0074721F /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
 		A47D18A52F56BFBE0074721F /* UserCaseImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCaseImpl.swift; sourceTree = "<group>"; };
 		A47D18A72F56C0200074721F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		A47ED6732F84F23F0000CC71 /* DeathsDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathsDomain.swift; sourceTree = "<group>"; };
+		A47ED6752F84F3340000CC71 /* DeathsDomainDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathsDomainDTO.swift; sourceTree = "<group>"; };
+		A47ED6772F8CBFA50000CC71 /* DeathsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathsUseCase.swift; sourceTree = "<group>"; };
+		A47ED6792F8CBFDF0000CC71 /* DeathsUserRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathsUserRepo.swift; sourceTree = "<group>"; };
+		A47ED67B2F8CC02A0000CC71 /* DeathsInfra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathsInfra.swift; sourceTree = "<group>"; };
+		A47ED67D2F8CC1860000CC71 /* DeathsUserRepoIMPL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathsUserRepoIMPL.swift; sourceTree = "<group>"; };
+		A47ED67F2F8CC3730000CC71 /* DeathsUseCaseIMPL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathsUseCaseIMPL.swift; sourceTree = "<group>"; };
+		A47ED6812F8CC5210000CC71 /* DeathsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathsViewModel.swift; sourceTree = "<group>"; };
+		A47ED6832F8CC7180000CC71 /* DeathsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathsView.swift; sourceTree = "<group>"; };
 		A4910E2D2F7539AD0068838A /* DomainFollowers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainFollowers.swift; sourceTree = "<group>"; };
 		A4910E2F2F753A7A0068838A /* DomainDTOFollowers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainDTOFollowers.swift; sourceTree = "<group>"; };
 		A4910E312F753BDB0068838A /* FollowersInfra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersInfra.swift; sourceTree = "<group>"; };
@@ -305,11 +323,19 @@
 			path = Issues;
 			sourceTree = "<group>";
 		};
-		A43756192F8395E2004C7A22 /* New Group */ = {
+		A43756192F8395E2004C7A22 /* Deaths */ = {
 			isa = PBXGroup;
 			children = (
+				A47ED6732F84F23F0000CC71 /* DeathsDomain.swift */,
+				A47ED6752F84F3340000CC71 /* DeathsDomainDTO.swift */,
+				A47ED6772F8CBFA50000CC71 /* DeathsUseCase.swift */,
+				A47ED6792F8CBFDF0000CC71 /* DeathsUserRepo.swift */,
+				A47ED67D2F8CC1860000CC71 /* DeathsUserRepoIMPL.swift */,
+				A47ED67F2F8CC3730000CC71 /* DeathsUseCaseIMPL.swift */,
+				A47ED67B2F8CC02A0000CC71 /* DeathsInfra.swift */,
+				A47ED6812F8CC5210000CC71 /* DeathsViewModel.swift */,
 			);
-			path = "New Group";
+			path = Deaths;
 			sourceTree = "<group>";
 		};
 		A4464C492F6D4FA40051A91B /* Members */ = {
@@ -376,7 +402,8 @@
 				A4264DF12F72937C009D3DA1 /* IssuesView.swift */,
 				A4910E3D2F75411F0068838A /* FollowersView.swift */,
 				A4C27ADC2F7BAA8200A75168 /* QuotesUIView.swift */,
-				A43756192F8395E2004C7A22 /* New Group */,
+				A47ED6832F8CC7180000CC71 /* DeathsView.swift */,
+				A43756192F8395E2004C7A22 /* Deaths */,
 				A4C27ACB2F7BA53900A75168 /* Quotes */,
 				A4910E2C2F7539930068838A /* Followers */,
 				A4264DE02F728E37009D3DA1 /* Issues */,
@@ -591,6 +618,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A47ED6742F84F23F0000CC71 /* DeathsDomain.swift in Sources */,
 				A4C27AD72F7BA80800A75168 /* QuotesUserRepoIMPL.swift in Sources */,
 				A4910E3C2F753FE20068838A /* FollowersViewModel.swift in Sources */,
 				A4C27AD92F7BA8B200A75168 /* QuotesUseCaseIMPL.swift in Sources */,
@@ -665,8 +693,11 @@
 				A4240CC32F603597008FBD91 /* TYPICodeDTO.swift in Sources */,
 				A4264DEA2F729030009D3DA1 /* IssuesInfra.swift in Sources */,
 				A4464C622F712E590051A91B /* InformationInfra.swift in Sources */,
+				A47ED67E2F8CC1860000CC71 /* DeathsUserRepoIMPL.swift in Sources */,
 				A49DD43C2F59594B002E6EA1 /* UseCase.swift in Sources */,
+				A47ED6822F8CC5210000CC71 /* DeathsViewModel.swift in Sources */,
 				A4464C5B2F6D54B60051A91B /* MembersView.swift in Sources */,
+				A47ED6802F8CC3730000CC71 /* DeathsUseCaseIMPL.swift in Sources */,
 				A4DBB7282F715AFD00BADC39 /* InfoViewModel.swift in Sources */,
 				A4240CB22F5FFD1B008FBD91 /* WeatherDTO.swift in Sources */,
 				A4464C642F714F160051A91B /* InfoUseCase.swift in Sources */,
@@ -680,13 +711,16 @@
 				A4464C602F7124FD0051A91B /* DomainInfoDTO.swift in Sources */,
 				A4240CC12F603520008FBD91 /* TYPIDomain.swift in Sources */,
 				A4DBB72A2F715C2000BADC39 /* InfoView.swift in Sources */,
+				A47ED6762F84F3340000CC71 /* DeathsDomainDTO.swift in Sources */,
 				A47D189E2F56BD2C0074721F /* UsersDTO.swift in Sources */,
 				A4264DF02F7292A3009D3DA1 /* IssuesViewModel.swift in Sources */,
 				A4464C5E2F7124700051A91B /* DomainInfo.swift in Sources */,
+				A47ED67C2F8CC02A0000CC71 /* DeathsInfra.swift in Sources */,
 				A49DD4512F596F08002E6EA1 /* DummyUserRepoIMPL.swift in Sources */,
 				A49DD4552F59709D002E6EA1 /* DummyViewModel.swift in Sources */,
 				A49DD4382F5950FB002E6EA1 /* DomainModel.swift in Sources */,
 				A4C9E1482F5ED18F0030EB80 /* CompaniesView.swift in Sources */,
+				A47ED6842F8CC7180000CC71 /* DeathsView.swift in Sources */,
 				A4464C682F714F800051A91B /* InfoUserRepoIMPL.swift in Sources */,
 				A4464C572F6D530E0051A91B /* MembersUseCaseIMPL.swift in Sources */,
 				A4264DEC2F72910B009D3DA1 /* IssuesUserRepoIMPL.swift in Sources */,
@@ -698,6 +732,8 @@
 				A49DD4422F595EA3002E6EA1 /* UseCaseDropBoxIMPL.swift in Sources */,
 				A4C9E1442F5ECE7D0030EB80 /* CompaniesViewModel.swift in Sources */,
 				A4240CB42F5FFE42008FBD91 /* WeatherUserRepo.swift in Sources */,
+				A47ED67A2F8CBFDF0000CC71 /* DeathsUserRepo.swift in Sources */,
+				A47ED6782F8CBFA60000CC71 /* DeathsUseCase.swift in Sources */,
 				A49DD43E2F5959B0002E6EA1 /* UserRepoDropBox.swift in Sources */,
 				A4922E322F68142600348DBC /* ORGInfraStructure.swift in Sources */,
 				A4240CD12F603BBE008FBD91 /* TYPIPhotosView.swift in Sources */,
