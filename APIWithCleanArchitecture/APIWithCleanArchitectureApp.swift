@@ -32,7 +32,10 @@ struct APIWithCleanArchitectureApp: App {
 
           //  QuotesUIView(quotesViewModel: QuotesViewModel(useCase: QuotesUseCaseIMPL(repo: QuotesUserRepoIMPL(api: QuotesAPIInfra()))))
 
-            DeathsView(deathsViewModel: DeathsViewModel(useCase: DeathsUseCaseIMPL(repo: DeathsUserRepoIMPL(deathsInfra: DeathsInfra()))))
+          //  DeathsView(deathsViewModel: DeathsViewModel(useCase: DeathsUseCaseIMPL(repo: DeathsUserRepoIMPL(deathsInfra: DeathsInfra()))))
+            
+            HarOrgView(harOrgViewModel: HarOrgViewModel(harUseCase: HarOrgUseCaseIMPL(harUserRepo: HarOrgUserRepoIMPL(getFromInfra: HarOrgInfra()))))
+
 
         }
     }

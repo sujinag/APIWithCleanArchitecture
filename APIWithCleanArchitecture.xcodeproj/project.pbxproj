@@ -34,6 +34,15 @@
 		A4264DEE2F7291EF009D3DA1 /* IssuesUseCaseIMPL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4264DED2F7291EF009D3DA1 /* IssuesUseCaseIMPL.swift */; };
 		A4264DF02F7292A3009D3DA1 /* IssuesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4264DEF2F7292A3009D3DA1 /* IssuesViewModel.swift */; };
 		A4264DF22F72937C009D3DA1 /* IssuesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4264DF12F72937C009D3DA1 /* IssuesView.swift */; };
+		A44566AB2F978423001B8BEA /* HarOrgDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44566AA2F978423001B8BEA /* HarOrgDomain.swift */; };
+		A44566AD2F9784CC001B8BEA /* HarOrgDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44566AC2F9784CC001B8BEA /* HarOrgDTO.swift */; };
+		A44566AF2F978597001B8BEA /* HarOrgUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44566AE2F978597001B8BEA /* HarOrgUseCase.swift */; };
+		A44566B12F9785E7001B8BEA /* HarOrgUserRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44566B02F9785E7001B8BEA /* HarOrgUserRepo.swift */; };
+		A44566B32F97863E001B8BEA /* HarOrgInfra.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44566B22F97863E001B8BEA /* HarOrgInfra.swift */; };
+		A44566B52F978762001B8BEA /* HarOrgUseCaseIMPL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44566B42F978762001B8BEA /* HarOrgUseCaseIMPL.swift */; };
+		A44566B72F97888D001B8BEA /* HarOrgUserRepoIMPL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44566B62F97888D001B8BEA /* HarOrgUserRepoIMPL.swift */; };
+		A44566B92F978C0B001B8BEA /* HarOrgViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44566B82F978C0B001B8BEA /* HarOrgViewModel.swift */; };
+		A44566BB2F979093001B8BEA /* HarOrgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44566BA2F979093001B8BEA /* HarOrgView.swift */; };
 		A4464C4B2F6D4FC50051A91B /* DomainMembers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4464C4A2F6D4FC50051A91B /* DomainMembers.swift */; };
 		A4464C4D2F6D505E0051A91B /* DomainDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4464C4C2F6D505E0051A91B /* DomainDTO.swift */; };
 		A4464C4F2F6D50D20051A91B /* MembersUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4464C4E2F6D50D20051A91B /* MembersUseCase.swift */; };
@@ -164,6 +173,15 @@
 		A4264DED2F7291EF009D3DA1 /* IssuesUseCaseIMPL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuesUseCaseIMPL.swift; sourceTree = "<group>"; };
 		A4264DEF2F7292A3009D3DA1 /* IssuesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuesViewModel.swift; sourceTree = "<group>"; };
 		A4264DF12F72937C009D3DA1 /* IssuesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuesView.swift; sourceTree = "<group>"; };
+		A44566AA2F978423001B8BEA /* HarOrgDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarOrgDomain.swift; sourceTree = "<group>"; };
+		A44566AC2F9784CC001B8BEA /* HarOrgDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarOrgDTO.swift; sourceTree = "<group>"; };
+		A44566AE2F978597001B8BEA /* HarOrgUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarOrgUseCase.swift; sourceTree = "<group>"; };
+		A44566B02F9785E7001B8BEA /* HarOrgUserRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarOrgUserRepo.swift; sourceTree = "<group>"; };
+		A44566B22F97863E001B8BEA /* HarOrgInfra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarOrgInfra.swift; sourceTree = "<group>"; };
+		A44566B42F978762001B8BEA /* HarOrgUseCaseIMPL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarOrgUseCaseIMPL.swift; sourceTree = "<group>"; };
+		A44566B62F97888D001B8BEA /* HarOrgUserRepoIMPL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarOrgUserRepoIMPL.swift; sourceTree = "<group>"; };
+		A44566B82F978C0B001B8BEA /* HarOrgViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarOrgViewModel.swift; sourceTree = "<group>"; };
+		A44566BA2F979093001B8BEA /* HarOrgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarOrgView.swift; sourceTree = "<group>"; };
 		A4464C4A2F6D4FC50051A91B /* DomainMembers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainMembers.swift; sourceTree = "<group>"; };
 		A4464C4C2F6D505E0051A91B /* DomainDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainDTO.swift; sourceTree = "<group>"; };
 		A4464C4E2F6D50D20051A91B /* MembersUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembersUseCase.swift; sourceTree = "<group>"; };
@@ -338,6 +356,21 @@
 			path = Deaths;
 			sourceTree = "<group>";
 		};
+		A44566A92F9783CF001B8BEA /* HadleyOrgs */ = {
+			isa = PBXGroup;
+			children = (
+				A44566AA2F978423001B8BEA /* HarOrgDomain.swift */,
+				A44566AC2F9784CC001B8BEA /* HarOrgDTO.swift */,
+				A44566AE2F978597001B8BEA /* HarOrgUseCase.swift */,
+				A44566B02F9785E7001B8BEA /* HarOrgUserRepo.swift */,
+				A44566B22F97863E001B8BEA /* HarOrgInfra.swift */,
+				A44566B42F978762001B8BEA /* HarOrgUseCaseIMPL.swift */,
+				A44566B62F97888D001B8BEA /* HarOrgUserRepoIMPL.swift */,
+				A44566B82F978C0B001B8BEA /* HarOrgViewModel.swift */,
+			);
+			path = HadleyOrgs;
+			sourceTree = "<group>";
+		};
 		A4464C492F6D4FA40051A91B /* Members */ = {
 			isa = PBXGroup;
 			children = (
@@ -403,6 +436,8 @@
 				A4910E3D2F75411F0068838A /* FollowersView.swift */,
 				A4C27ADC2F7BAA8200A75168 /* QuotesUIView.swift */,
 				A47ED6832F8CC7180000CC71 /* DeathsView.swift */,
+				A44566BA2F979093001B8BEA /* HarOrgView.swift */,
+				A44566A92F9783CF001B8BEA /* HadleyOrgs */,
 				A43756192F8395E2004C7A22 /* Deaths */,
 				A4C27ACB2F7BA53900A75168 /* Quotes */,
 				A4910E2C2F7539930068838A /* Followers */,
@@ -657,6 +692,7 @@
 				A4C9E13E2F5EBA6F0030EB80 /* ComapnyUserRepo.swift in Sources */,
 				A4C638AA2F6A7B0E0058A763 /* RepoUserRepo.swift in Sources */,
 				A4264DE22F728E5E009D3DA1 /* DomainIssues.swift in Sources */,
+				A44566BB2F979093001B8BEA /* HarOrgView.swift in Sources */,
 				A4DBB7262F715A8400BADC39 /* InfoUseCaseIMPL.swift in Sources */,
 				A4C27ACF2F7BA5A500A75168 /* DomainQuoteDTO.swift in Sources */,
 				A4264DE62F728FC5009D3DA1 /* IssuesUseCase.swift in Sources */,
@@ -667,6 +703,7 @@
 				A4910E362F753D320068838A /* UserRepoFollowers.swift in Sources */,
 				A4910E342F753CC90068838A /* UseCaseFollowers.swift in Sources */,
 				A4C9E13C2F5EBA1A0030EB80 /* ComapnyUseCase.swift in Sources */,
+				A44566AD2F9784CC001B8BEA /* HarOrgDTO.swift in Sources */,
 				A4C9E1402F5EBAA50030EB80 /* ComapnyUseCaseImpl.swift in Sources */,
 				A4464C532F6D514B0051A91B /* MembersInfraStructure.swift in Sources */,
 				A4C27ACD2F7BA55B00A75168 /* DomainQuotes.swift in Sources */,
@@ -684,6 +721,7 @@
 				A4C9E1422F5EBAB80030EB80 /* InfraStructure.swift in Sources */,
 				A49DD4462F5962DF002E6EA1 /* DroBoxView.swift in Sources */,
 				A4464C662F714F480051A91B /* InfoUserRepo.swift in Sources */,
+				A44566B12F9785E7001B8BEA /* HarOrgUserRepo.swift in Sources */,
 				A4264DF22F72937C009D3DA1 /* IssuesView.swift in Sources */,
 				A4464C4F2F6D50D20051A91B /* MembersUseCase.swift in Sources */,
 				A4C638A62F6A78E20058A763 /* RepoDTO.swift in Sources */,
@@ -705,8 +743,10 @@
 				A4464C4B2F6D4FC50051A91B /* DomainMembers.swift in Sources */,
 				A49DD4572F597182002E6EA1 /* DummyUsers.swift in Sources */,
 				A47D18902F56BC360074721F /* ContentView.swift in Sources */,
+				A44566B72F97888D001B8BEA /* HarOrgUserRepoIMPL.swift in Sources */,
 				A4922E2E2F68132A00348DBC /* OrgUseRepo.swift in Sources */,
 				A4464C512F6D51070051A91B /* MembersUserRepo.swift in Sources */,
+				A44566AF2F978597001B8BEA /* HarOrgUseCase.swift in Sources */,
 				A4464C552F6D52350051A91B /* MembersRepoIMPL.swift in Sources */,
 				A4464C602F7124FD0051A91B /* DomainInfoDTO.swift in Sources */,
 				A4240CC12F603520008FBD91 /* TYPIDomain.swift in Sources */,
@@ -715,14 +755,18 @@
 				A47D189E2F56BD2C0074721F /* UsersDTO.swift in Sources */,
 				A4264DF02F7292A3009D3DA1 /* IssuesViewModel.swift in Sources */,
 				A4464C5E2F7124700051A91B /* DomainInfo.swift in Sources */,
+				A44566B52F978762001B8BEA /* HarOrgUseCaseIMPL.swift in Sources */,
 				A47ED67C2F8CC02A0000CC71 /* DeathsInfra.swift in Sources */,
 				A49DD4512F596F08002E6EA1 /* DummyUserRepoIMPL.swift in Sources */,
 				A49DD4552F59709D002E6EA1 /* DummyViewModel.swift in Sources */,
 				A49DD4382F5950FB002E6EA1 /* DomainModel.swift in Sources */,
 				A4C9E1482F5ED18F0030EB80 /* CompaniesView.swift in Sources */,
+				A44566AB2F978423001B8BEA /* HarOrgDomain.swift in Sources */,
 				A47ED6842F8CC7180000CC71 /* DeathsView.swift in Sources */,
+				A44566B32F97863E001B8BEA /* HarOrgInfra.swift in Sources */,
 				A4464C682F714F800051A91B /* InfoUserRepoIMPL.swift in Sources */,
 				A4464C572F6D530E0051A91B /* MembersUseCaseIMPL.swift in Sources */,
+				A44566B92F978C0B001B8BEA /* HarOrgViewModel.swift in Sources */,
 				A4264DEC2F72910B009D3DA1 /* IssuesUserRepoIMPL.swift in Sources */,
 				A49DD43A2F595256002E6EA1 /* DataDTO.swift in Sources */,
 				A4264DE42F728F01009D3DA1 /* IssuesDTO.swift in Sources */,
