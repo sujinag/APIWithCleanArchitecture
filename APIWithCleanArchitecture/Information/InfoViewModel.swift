@@ -18,10 +18,10 @@ class InfoVIewModel: ObservableObject{
     }
     
     func loadData(){
-        Task
-        {
-            await fetchData()
-        }
+//        Task
+//        {
+//            await fetchData()
+//        }
     }
     
     func fetchData() async{

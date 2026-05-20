@@ -21,10 +21,10 @@ class CommitsViewModel: ObservableObject {
     
     func loadData()
     {
-        Task
-        {
-            await fetchData()
-        }
+//        Task
+//        {
+//            await fetchData()
+//        }
     }
     
     

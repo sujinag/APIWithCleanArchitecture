@@ -21,10 +21,10 @@ class DeathsViewModel: ObservableObject {
     
     
     func loadData(){
-        Task
-        {
-           await  fetchData()
-        }
+//        Task
+//        {
+//           await  fetchData()
+//        }
     }
 
     

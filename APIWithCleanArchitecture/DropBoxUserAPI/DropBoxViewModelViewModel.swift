@@ -17,9 +17,9 @@ class DropBoxViewModel: ObservableObject {
     }
     
     func fetchData(){
-        Task{
-            await loadingData()
-        }
+//        Task{
+//            await loadingData()
+//        }
     }
     
     

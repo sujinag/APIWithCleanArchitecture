@@ -21,10 +21,10 @@ class QuotesViewModel: ObservableObject{
     
     func loadData(){
         
-        Task{
-            
-            await fetchData()
-        }
+//        Task{
+//            
+//            await fetchData()
+//        }
     }
     
     

@@ -35,7 +35,11 @@ struct APIWithCleanArchitectureApp: App {
           //  DeathsView(deathsViewModel: DeathsViewModel(useCase: DeathsUseCaseIMPL(repo: DeathsUserRepoIMPL(deathsInfra: DeathsInfra()))))
             
            // HarOrgView(harOrgViewModel: HarOrgViewModel(harUseCase: HarOrgUseCaseIMPL(harUserRepo: HarOrgUserRepoIMPL(getFromInfra: HarOrgInfra()))))
-            CommitsVIew(commitsViewModel: CommitsViewModel(useCase: CommitsUseCaseIMPL(repo: CommitsUserRepoIMPL(commitsINfra: CommitsInfra()))))
+            //CommitsVIew(commitsViewModel: CommitsViewModel(useCase: CommitsUseCaseIMPL(repo: CommitsUserRepoIMPL(commitsINfra: CommitsInfra()))))
+
+          //  TreesView(treesViewModel: TreesViewModel(useCase: TreesUseCaseIMPL(repo: TreesUserRepoIMPL(infra: TreesInfra()))))
+            
+            UsersView(usersViewModel: UsersViewModel(useCase: UseCaseIMPL(repo: UsersRepoIMPL(userInfra: UsersInfra()))))
 
 
         }

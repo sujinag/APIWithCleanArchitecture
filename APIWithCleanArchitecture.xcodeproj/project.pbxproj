@@ -34,6 +34,15 @@
 		A4264DEE2F7291EF009D3DA1 /* IssuesUseCaseIMPL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4264DED2F7291EF009D3DA1 /* IssuesUseCaseIMPL.swift */; };
 		A4264DF02F7292A3009D3DA1 /* IssuesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4264DEF2F7292A3009D3DA1 /* IssuesViewModel.swift */; };
 		A4264DF22F72937C009D3DA1 /* IssuesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4264DF12F72937C009D3DA1 /* IssuesView.swift */; };
+		A42B92312FA08A6B00D8B0A0 /* TreesDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B92302FA08A6B00D8B0A0 /* TreesDomain.swift */; };
+		A42B92332FA08BD000D8B0A0 /* TreesDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B92322FA08BD000D8B0A0 /* TreesDTO.swift */; };
+		A42B92352FA0900D00D8B0A0 /* TreesInfra.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B92342FA0900D00D8B0A0 /* TreesInfra.swift */; };
+		A42B92372FA091B900D8B0A0 /* TreesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B92362FA091B900D8B0A0 /* TreesUseCase.swift */; };
+		A42B92392FA0920100D8B0A0 /* TreesUserRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B92382FA0920100D8B0A0 /* TreesUserRepo.swift */; };
+		A42B923B2FA0922B00D8B0A0 /* TreesUserRepoIMPL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B923A2FA0922B00D8B0A0 /* TreesUserRepoIMPL.swift */; };
+		A42B923D2FA0947200D8B0A0 /* TreesUseCaseIMPL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B923C2FA0947200D8B0A0 /* TreesUseCaseIMPL.swift */; };
+		A42B923F2FA095B400D8B0A0 /* TreesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B923E2FA095B400D8B0A0 /* TreesViewModel.swift */; };
+		A42B92412FA0972500D8B0A0 /* TreesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B92402FA0972500D8B0A0 /* TreesView.swift */; };
 		A44566AB2F978423001B8BEA /* HarOrgDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44566AA2F978423001B8BEA /* HarOrgDomain.swift */; };
 		A44566AD2F9784CC001B8BEA /* HarOrgDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44566AC2F9784CC001B8BEA /* HarOrgDTO.swift */; };
 		A44566AF2F978597001B8BEA /* HarOrgUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44566AE2F978597001B8BEA /* HarOrgUseCase.swift */; };
@@ -67,6 +76,7 @@
 		A46BB6532F9B4FB400F13412 /* CommitsUseCaseIMPL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46BB6522F9B4FB400F13412 /* CommitsUseCaseIMPL.swift */; };
 		A46BB6552F9B505300F13412 /* CommitsVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46BB6542F9B505300F13412 /* CommitsVIew.swift */; };
 		A46BB6572F9B506B00F13412 /* CommitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46BB6562F9B506B00F13412 /* CommitsViewModel.swift */; };
+		A47C2F462FBD81EB00792281 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47C2F452FBD81EB00792281 /* PracticeView.swift */; };
 		A47D188E2F56BC360074721F /* APIWithCleanArchitectureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47D188D2F56BC360074721F /* APIWithCleanArchitectureApp.swift */; };
 		A47D18902F56BC360074721F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47D188F2F56BC360074721F /* ContentView.swift */; };
 		A47D18922F56BC3A0074721F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A47D18912F56BC3A0074721F /* Assets.xcassets */; };
@@ -96,6 +106,7 @@
 		A4910E3A2F753EF10068838A /* UseCaseFollowersIMPL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4910E392F753EF10068838A /* UseCaseFollowersIMPL.swift */; };
 		A4910E3C2F753FE20068838A /* FollowersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4910E3B2F753FE20068838A /* FollowersViewModel.swift */; };
 		A4910E3E2F75411F0068838A /* FollowersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4910E3D2F75411F0068838A /* FollowersView.swift */; };
+		A4916B242FAC7DEC00545488 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4916B232FAC7DEC00545488 /* Task.swift */; };
 		A4922E282F6811D700348DBC /* orgsDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4922E272F6811D700348DBC /* orgsDomain.swift */; };
 		A4922E2A2F68124800348DBC /* OrgsDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4922E292F68124800348DBC /* OrgsDTO.swift */; };
 		A4922E2C2F6812E200348DBC /* OrgUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4922E2B2F6812E200348DBC /* OrgUseCase.swift */; };
@@ -152,6 +163,15 @@
 		A4DBB7262F715A8400BADC39 /* InfoUseCaseIMPL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBB7252F715A8400BADC39 /* InfoUseCaseIMPL.swift */; };
 		A4DBB7282F715AFD00BADC39 /* InfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBB7272F715AFD00BADC39 /* InfoViewModel.swift */; };
 		A4DBB72A2F715C2000BADC39 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBB7292F715C2000BADC39 /* InfoView.swift */; };
+		A4DBE0532FBADD9300956797 /* UsersDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBE0522FBADD9300956797 /* UsersDomain.swift */; };
+		A4DBE0552FBADDE400956797 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBE0542FBADDE400956797 /* UserData.swift */; };
+		A4DBE0572FBADE5400956797 /* UserUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBE0562FBADE5400956797 /* UserUseCase.swift */; };
+		A4DBE0592FBADEAA00956797 /* UsersRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBE0582FBADEAA00956797 /* UsersRepo.swift */; };
+		A4DBE05B2FBADFE200956797 /* UsersInfra.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBE05A2FBADFE200956797 /* UsersInfra.swift */; };
+		A4DBE05D2FBAE17D00956797 /* UsersRepoIMPL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBE05C2FBAE17D00956797 /* UsersRepoIMPL.swift */; };
+		A4DBE05F2FBAE2E800956797 /* UseCaseIMPL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBE05E2FBAE2E800956797 /* UseCaseIMPL.swift */; };
+		A4DBE0612FBAE46200956797 /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBE0602FBAE46200956797 /* UsersViewModel.swift */; };
+		A4DBE0632FBAE80900956797 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBE0622FBAE80900956797 /* UsersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -182,6 +202,15 @@
 		A4264DED2F7291EF009D3DA1 /* IssuesUseCaseIMPL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuesUseCaseIMPL.swift; sourceTree = "<group>"; };
 		A4264DEF2F7292A3009D3DA1 /* IssuesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuesViewModel.swift; sourceTree = "<group>"; };
 		A4264DF12F72937C009D3DA1 /* IssuesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuesView.swift; sourceTree = "<group>"; };
+		A42B92302FA08A6B00D8B0A0 /* TreesDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreesDomain.swift; sourceTree = "<group>"; };
+		A42B92322FA08BD000D8B0A0 /* TreesDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreesDTO.swift; sourceTree = "<group>"; };
+		A42B92342FA0900D00D8B0A0 /* TreesInfra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreesInfra.swift; sourceTree = "<group>"; };
+		A42B92362FA091B900D8B0A0 /* TreesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreesUseCase.swift; sourceTree = "<group>"; };
+		A42B92382FA0920100D8B0A0 /* TreesUserRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreesUserRepo.swift; sourceTree = "<group>"; };
+		A42B923A2FA0922B00D8B0A0 /* TreesUserRepoIMPL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreesUserRepoIMPL.swift; sourceTree = "<group>"; };
+		A42B923C2FA0947200D8B0A0 /* TreesUseCaseIMPL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreesUseCaseIMPL.swift; sourceTree = "<group>"; };
+		A42B923E2FA095B400D8B0A0 /* TreesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreesViewModel.swift; sourceTree = "<group>"; };
+		A42B92402FA0972500D8B0A0 /* TreesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreesView.swift; sourceTree = "<group>"; };
 		A44566AA2F978423001B8BEA /* HarOrgDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarOrgDomain.swift; sourceTree = "<group>"; };
 		A44566AC2F9784CC001B8BEA /* HarOrgDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarOrgDTO.swift; sourceTree = "<group>"; };
 		A44566AE2F978597001B8BEA /* HarOrgUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarOrgUseCase.swift; sourceTree = "<group>"; };
@@ -215,6 +244,7 @@
 		A46BB6522F9B4FB400F13412 /* CommitsUseCaseIMPL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitsUseCaseIMPL.swift; sourceTree = "<group>"; };
 		A46BB6542F9B505300F13412 /* CommitsVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitsVIew.swift; sourceTree = "<group>"; };
 		A46BB6562F9B506B00F13412 /* CommitsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitsViewModel.swift; sourceTree = "<group>"; };
+		A47C2F452FBD81EB00792281 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
 		A47D188A2F56BC360074721F /* APIWithCleanArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIWithCleanArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47D188D2F56BC360074721F /* APIWithCleanArchitectureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIWithCleanArchitectureApp.swift; sourceTree = "<group>"; };
 		A47D188F2F56BC360074721F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -245,6 +275,7 @@
 		A4910E392F753EF10068838A /* UseCaseFollowersIMPL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseFollowersIMPL.swift; sourceTree = "<group>"; };
 		A4910E3B2F753FE20068838A /* FollowersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersViewModel.swift; sourceTree = "<group>"; };
 		A4910E3D2F75411F0068838A /* FollowersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersView.swift; sourceTree = "<group>"; };
+		A4916B232FAC7DEC00545488 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		A4922E272F6811D700348DBC /* orgsDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orgsDomain.swift; sourceTree = "<group>"; };
 		A4922E292F68124800348DBC /* OrgsDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrgsDTO.swift; sourceTree = "<group>"; };
 		A4922E2B2F6812E200348DBC /* OrgUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrgUseCase.swift; sourceTree = "<group>"; };
@@ -301,6 +332,15 @@
 		A4DBB7252F715A8400BADC39 /* InfoUseCaseIMPL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoUseCaseIMPL.swift; sourceTree = "<group>"; };
 		A4DBB7272F715AFD00BADC39 /* InfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewModel.swift; sourceTree = "<group>"; };
 		A4DBB7292F715C2000BADC39 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		A4DBE0522FBADD9300956797 /* UsersDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersDomain.swift; sourceTree = "<group>"; };
+		A4DBE0542FBADDE400956797 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		A4DBE0562FBADE5400956797 /* UserUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserUseCase.swift; sourceTree = "<group>"; };
+		A4DBE0582FBADEAA00956797 /* UsersRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRepo.swift; sourceTree = "<group>"; };
+		A4DBE05A2FBADFE200956797 /* UsersInfra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersInfra.swift; sourceTree = "<group>"; };
+		A4DBE05C2FBAE17D00956797 /* UsersRepoIMPL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRepoIMPL.swift; sourceTree = "<group>"; };
+		A4DBE05E2FBAE2E800956797 /* UseCaseIMPL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseIMPL.swift; sourceTree = "<group>"; };
+		A4DBE0602FBAE46200956797 /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		A4DBE0622FBAE80900956797 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -357,6 +397,21 @@
 				A4264DE92F729030009D3DA1 /* IssuesInfra.swift */,
 			);
 			path = Issues;
+			sourceTree = "<group>";
+		};
+		A42B922F2FA08A5400D8B0A0 /* Trees */ = {
+			isa = PBXGroup;
+			children = (
+				A42B92302FA08A6B00D8B0A0 /* TreesDomain.swift */,
+				A42B92322FA08BD000D8B0A0 /* TreesDTO.swift */,
+				A42B92342FA0900D00D8B0A0 /* TreesInfra.swift */,
+				A42B92362FA091B900D8B0A0 /* TreesUseCase.swift */,
+				A42B92382FA0920100D8B0A0 /* TreesUserRepo.swift */,
+				A42B923A2FA0922B00D8B0A0 /* TreesUserRepoIMPL.swift */,
+				A42B923C2FA0947200D8B0A0 /* TreesUseCaseIMPL.swift */,
+				A42B923E2FA095B400D8B0A0 /* TreesViewModel.swift */,
+			);
+			path = Trees;
 			sourceTree = "<group>";
 		};
 		A43756192F8395E2004C7A22 /* Deaths */ = {
@@ -471,6 +526,12 @@
 				A47ED6832F8CC7180000CC71 /* DeathsView.swift */,
 				A44566BA2F979093001B8BEA /* HarOrgView.swift */,
 				A46BB6542F9B505300F13412 /* CommitsVIew.swift */,
+				A42B92402FA0972500D8B0A0 /* TreesView.swift */,
+				A4916B232FAC7DEC00545488 /* Task.swift */,
+				A4DBE0622FBAE80900956797 /* UsersView.swift */,
+				A47C2F452FBD81EB00792281 /* PracticeView.swift */,
+				A4DBE0512FBADD7300956797 /* Users */,
+				A42B922F2FA08A5400D8B0A0 /* Trees */,
 				A46BB6452F9B482E00F13412 /* Commits */,
 				A44566A92F9783CF001B8BEA /* HadleyOrgs */,
 				A43756192F8395E2004C7A22 /* Deaths */,
@@ -618,6 +679,21 @@
 			path = TODOCompanies;
 			sourceTree = "<group>";
 		};
+		A4DBE0512FBADD7300956797 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				A4DBE0522FBADD9300956797 /* UsersDomain.swift */,
+				A4DBE0542FBADDE400956797 /* UserData.swift */,
+				A4DBE0562FBADE5400956797 /* UserUseCase.swift */,
+				A4DBE0582FBADEAA00956797 /* UsersRepo.swift */,
+				A4DBE05A2FBADFE200956797 /* UsersInfra.swift */,
+				A4DBE05C2FBAE17D00956797 /* UsersRepoIMPL.swift */,
+				A4DBE05E2FBAE2E800956797 /* UseCaseIMPL.swift */,
+				A4DBE0602FBAE46200956797 /* UsersViewModel.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -695,6 +771,7 @@
 				A4C638B02F6A7DA30058A763 /* RepoUseCaseIMPL.swift in Sources */,
 				A4240CBA2F602AE5008FBD91 /* WeatherUseCaseIMPL.swift in Sources */,
 				A4240CB82F60006D008FBD91 /* WeatherUserRepoIMPL.swift in Sources */,
+				A42B92312FA08A6B00D8B0A0 /* TreesDomain.swift in Sources */,
 				A4922E2A2F68124800348DBC /* OrgsDTO.swift in Sources */,
 				A4C27AD52F7BA7D500A75168 /* QuotesUserRepo.swift in Sources */,
 				A4922E382F68167B00348DBC /* ORGViewModel.swift in Sources */,
@@ -719,16 +796,20 @@
 				A4C638A42F6A77320058A763 /* RepoDomain.swift in Sources */,
 				A4922E282F6811D700348DBC /* orgsDomain.swift in Sources */,
 				A4240CB02F5FFBE8008FBD91 /* WeatherDomain.swift in Sources */,
+				A42B92412FA0972500D8B0A0 /* TreesView.swift in Sources */,
 				A47D18A22F56BE3A0074721F /* UsersUserRepo.swift in Sources */,
 				A49DD44B2F596C5C002E6EA1 /* DummyUsersDTO.swift in Sources */,
 				A4240CBE2F602E15008FBD91 /* WeatherView.swift in Sources */,
 				A4922E342F68153600348DBC /* ORGUserRepoIMPL.swift in Sources */,
+				A42B92332FA08BD000D8B0A0 /* TreesDTO.swift in Sources */,
 				A4922E362F68164700348DBC /* ORGView.swift in Sources */,
 				A4240CAE2F5FFBCC008FBD91 /* WeatherUseCase.swift in Sources */,
 				A46BB64B2F9B48E300F13412 /* CommitsUseCase.swift in Sources */,
 				A4C9E13E2F5EBA6F0030EB80 /* ComapnyUserRepo.swift in Sources */,
+				A4DBE0532FBADD9300956797 /* UsersDomain.swift in Sources */,
 				A4C638AA2F6A7B0E0058A763 /* RepoUserRepo.swift in Sources */,
 				A4264DE22F728E5E009D3DA1 /* DomainIssues.swift in Sources */,
+				A42B92372FA091B900D8B0A0 /* TreesUseCase.swift in Sources */,
 				A44566BB2F979093001B8BEA /* HarOrgView.swift in Sources */,
 				A4DBB7262F715A8400BADC39 /* InfoUseCaseIMPL.swift in Sources */,
 				A4C27ACF2F7BA5A500A75168 /* DomainQuoteDTO.swift in Sources */,
@@ -747,6 +828,7 @@
 				A4C27ACD2F7BA55B00A75168 /* DomainQuotes.swift in Sources */,
 				A46BB6532F9B4FB400F13412 /* CommitsUseCaseIMPL.swift in Sources */,
 				A46BB6472F9B484C00F13412 /* CommitsDomain.swift in Sources */,
+				A4DBE0572FBADE5400956797 /* UserUseCase.swift in Sources */,
 				A49DD4492F5969E5002E6EA1 /* DummyUsersModel.swift in Sources */,
 				A4910E302F753A7A0068838A /* DomainDTOFollowers.swift in Sources */,
 				A4240CB62F5FFEB9008FBD91 /* WeatherInfraStructure.swift in Sources */,
@@ -766,13 +848,16 @@
 				A44566B12F9785E7001B8BEA /* HarOrgUserRepo.swift in Sources */,
 				A4264DF22F72937C009D3DA1 /* IssuesView.swift in Sources */,
 				A4464C4F2F6D50D20051A91B /* MembersUseCase.swift in Sources */,
+				A42B923F2FA095B400D8B0A0 /* TreesViewModel.swift in Sources */,
 				A4C638A62F6A78E20058A763 /* RepoDTO.swift in Sources */,
+				A42B92392FA0920100D8B0A0 /* TreesUserRepo.swift in Sources */,
 				A49DD4442F595F8C002E6EA1 /* DropBoxViewModelViewModel.swift in Sources */,
 				A4264DE82F728FF3009D3DA1 /* IssuesUserRepo.swift in Sources */,
 				A4910E3E2F75411F0068838A /* FollowersView.swift in Sources */,
 				A46BB6492F9B489500F13412 /* CommitsDomainDTO.swift in Sources */,
 				A4240CC32F603597008FBD91 /* TYPICodeDTO.swift in Sources */,
 				A4264DEA2F729030009D3DA1 /* IssuesInfra.swift in Sources */,
+				A42B923D2FA0947200D8B0A0 /* TreesUseCaseIMPL.swift in Sources */,
 				A4464C622F712E590051A91B /* InformationInfra.swift in Sources */,
 				A47ED67E2F8CC1860000CC71 /* DeathsUserRepoIMPL.swift in Sources */,
 				A49DD43C2F59594B002E6EA1 /* UseCase.swift in Sources */,
@@ -782,6 +867,7 @@
 				A4DBB7282F715AFD00BADC39 /* InfoViewModel.swift in Sources */,
 				A4240CB22F5FFD1B008FBD91 /* WeatherDTO.swift in Sources */,
 				A4464C642F714F160051A91B /* InfoUseCase.swift in Sources */,
+				A4DBE05F2FBAE2E800956797 /* UseCaseIMPL.swift in Sources */,
 				A49DD4402F595A2F002E6EA1 /* UserRepoDropBoxIMPL.swift in Sources */,
 				A4464C4B2F6D4FC50051A91B /* DomainMembers.swift in Sources */,
 				A49DD4572F597182002E6EA1 /* DummyUsers.swift in Sources */,
@@ -798,29 +884,36 @@
 				A47D189E2F56BD2C0074721F /* UsersDTO.swift in Sources */,
 				A4264DF02F7292A3009D3DA1 /* IssuesViewModel.swift in Sources */,
 				A4464C5E2F7124700051A91B /* DomainInfo.swift in Sources */,
+				A42B92352FA0900D00D8B0A0 /* TreesInfra.swift in Sources */,
 				A44566B52F978762001B8BEA /* HarOrgUseCaseIMPL.swift in Sources */,
 				A47ED67C2F8CC02A0000CC71 /* DeathsInfra.swift in Sources */,
 				A49DD4512F596F08002E6EA1 /* DummyUserRepoIMPL.swift in Sources */,
 				A49DD4552F59709D002E6EA1 /* DummyViewModel.swift in Sources */,
 				A49DD4382F5950FB002E6EA1 /* DomainModel.swift in Sources */,
 				A4C9E1482F5ED18F0030EB80 /* CompaniesView.swift in Sources */,
+				A4DBE0612FBAE46200956797 /* UsersViewModel.swift in Sources */,
 				A44566AB2F978423001B8BEA /* HarOrgDomain.swift in Sources */,
 				A47ED6842F8CC7180000CC71 /* DeathsView.swift in Sources */,
 				A44566B32F97863E001B8BEA /* HarOrgInfra.swift in Sources */,
+				A4DBE0632FBAE80900956797 /* UsersView.swift in Sources */,
 				A4464C682F714F800051A91B /* InfoUserRepoIMPL.swift in Sources */,
 				A4464C572F6D530E0051A91B /* MembersUseCaseIMPL.swift in Sources */,
 				A44566B92F978C0B001B8BEA /* HarOrgViewModel.swift in Sources */,
 				A4264DEC2F72910B009D3DA1 /* IssuesUserRepoIMPL.swift in Sources */,
 				A49DD43A2F595256002E6EA1 /* DataDTO.swift in Sources */,
 				A4264DE42F728F01009D3DA1 /* IssuesDTO.swift in Sources */,
+				A4DBE0592FBADEAA00956797 /* UsersRepo.swift in Sources */,
 				A4910E322F753BDB0068838A /* FollowersInfra.swift in Sources */,
+				A42B923B2FA0922B00D8B0A0 /* TreesUserRepoIMPL.swift in Sources */,
 				A4910E3A2F753EF10068838A /* UseCaseFollowersIMPL.swift in Sources */,
 				A4C638AC2F6A7B470058A763 /* RepoInfraStructure.swift in Sources */,
 				A49DD4422F595EA3002E6EA1 /* UseCaseDropBoxIMPL.swift in Sources */,
+				A47C2F462FBD81EB00792281 /* PracticeView.swift in Sources */,
 				A4C9E1442F5ECE7D0030EB80 /* CompaniesViewModel.swift in Sources */,
 				A4240CB42F5FFE42008FBD91 /* WeatherUserRepo.swift in Sources */,
 				A47ED67A2F8CBFDF0000CC71 /* DeathsUserRepo.swift in Sources */,
 				A46BB64F2F9B495900F13412 /* CommitsInfra.swift in Sources */,
+				A4DBE0552FBADDE400956797 /* UserData.swift in Sources */,
 				A47ED6782F8CBFA60000CC71 /* DeathsUseCase.swift in Sources */,
 				A49DD43E2F5959B0002E6EA1 /* UserRepoDropBox.swift in Sources */,
 				A4922E322F68142600348DBC /* ORGInfraStructure.swift in Sources */,
@@ -828,8 +921,11 @@
 				A4240CCB2F603762008FBD91 /* TypiUserRepoIMPL.swift in Sources */,
 				A4922E2C2F6812E200348DBC /* OrgUseCase.swift in Sources */,
 				A4464C4D2F6D505E0051A91B /* DomainDTO.swift in Sources */,
+				A4DBE05D2FBAE17D00956797 /* UsersRepoIMPL.swift in Sources */,
 				A47D188E2F56BC360074721F /* APIWithCleanArchitectureApp.swift in Sources */,
 				A4C9E1462F5ECEAF0030EB80 /* CompanyUserRepoIMPL.swift in Sources */,
+				A4DBE05B2FBADFE200956797 /* UsersInfra.swift in Sources */,
+				A4916B242FAC7DEC00545488 /* Task.swift in Sources */,
 				A49DD4362F594F97002E6EA1 /* BaseUrlEndPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

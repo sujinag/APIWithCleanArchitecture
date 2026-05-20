@@ -17,9 +17,9 @@ class DummyViewModel: ObservableObject{
     }
     
     func fetchDummyData(){
-        Task{
-            await loadData()
-        }
+//        Task{
+//            await loadData()
+//        }
     }
     
     func loadData() async {

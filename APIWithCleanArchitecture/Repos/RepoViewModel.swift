@@ -16,9 +16,9 @@ class RepoViewModel: ObservableObject {
     }
     
     func loadData(){
-        Task{
-            await fetchData()
-        }
+//        Task{
+//            await fetchData()
+//        }
     }
     
     

@@ -21,10 +21,10 @@ class HarOrgViewModel : ObservableObject {
     
         func loadData()
     {
-        Task
-        {
-            await fetchData()
-        }
+//        Task
+//        {
+//            await fetchData()
+//        }
         
     }
     
