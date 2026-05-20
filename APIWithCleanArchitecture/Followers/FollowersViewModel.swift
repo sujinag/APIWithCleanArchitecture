@@ -19,9 +19,9 @@ class FollowersViewModel: ObservableObject {
     
     
     func loadData(){
-        Task{
-            await fetchFollowers()
-        }
+//        Task{
+//            await fetchFollowers()
+//        }
     }
     
     func fetchFollowers() async {

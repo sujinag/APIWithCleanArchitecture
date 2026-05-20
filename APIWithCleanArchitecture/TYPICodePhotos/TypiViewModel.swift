@@ -18,9 +18,10 @@ class TypiViewModel : ObservableObject {
     }
     
     func fetchImages() {
-        Task{
-            await loadPhotos()
-        }
+//        Task
+//        {
+//            await loadPhotos()
+//        }
     }
     
     func loadPhotos () async {

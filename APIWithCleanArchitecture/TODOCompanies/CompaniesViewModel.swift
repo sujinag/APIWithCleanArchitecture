@@ -16,10 +16,10 @@ class CompaniesViewModel: ObservableObject {
     }
     
     func fetchData() {
-        Task
-        {
-            await loadingComapnies()
-        }
+//        Task
+//        {
+//            await loadingComapnies()
+//        }
     }
     
     func loadingComapnies() async {

@@ -17,9 +17,9 @@ class ORGViewModel: ObservableObject {
     
     func loadData() {
         
-        Task{
-            await fetchImages()
-        }
+//        Task{
+//            await fetchImages()
+//        }
     }
     
     

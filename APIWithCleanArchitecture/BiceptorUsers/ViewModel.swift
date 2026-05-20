@@ -15,9 +15,9 @@ class ViewModel: ObservableObject {
         self.useCase = usecase
     }
     func fetchImages(){
-        Task {
-            await loadingUsers()
-        }
+//        Task {
+//            await loadingUsers()
+//        }
     }
     
     func loadingUsers () async{
