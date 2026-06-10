@@ -10,13 +10,15 @@ import SwiftUI
 struct UsersView: View {
     
     @State var txtName: String = ""
-    @StateObject var usersViewModel : UsersViewModel
-    init(usersViewModel: UsersViewModel){
-        _usersViewModel = StateObject(wrappedValue: usersViewModel)
-    }
+//    @StateObject var usersViewModel : UsersViewModel
+//    init(usersViewModel: UsersViewModel){
+//        _usersViewModel = StateObject(wrappedValue: usersViewModel)
+//    }
     
     var body: some View {
-        NavigationView {
+        Text("ghgh")
+
+        /*NavigationView {
             List{
                 ForEach(usersViewModel.users,id:\.id){ response in
                     
@@ -47,23 +49,23 @@ struct UsersView: View {
                     
                 } //Foreach
             } //List
-        } // Nav
+        }*/ // Nav
         
         
-        .task {
-            await usersViewModel.loadImages()
+//        .task {
+//            await usersViewModel.loadImages()
+//        }
+//        .refreshable{
+//            await usersViewModel.loadImages()
+//
         }
-        .refreshable{
-            await usersViewModel.loadImages()
-
-        }
-    }
+    
 }
 
 struct UsersView_Previews: PreviewProvider {
     static var previews: some View {
-     //   UsersView()
-        UsersView(usersViewModel: UsersViewModel(useCase: UseCaseIMPL(repo: UsersRepoIMPL(userInfra: UsersInfra()))))
+        UsersView()
+       // UsersView(usersViewModel: UsersViewModel(useCase: UseCaseIMPL(repo: UsersRepoIMPL(userInfra: UsersInfra()))))
 
     }
 }

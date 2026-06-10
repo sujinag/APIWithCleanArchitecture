@@ -39,8 +39,11 @@ struct APIWithCleanArchitectureApp: App {
 
           //  TreesView(treesViewModel: TreesViewModel(useCase: TreesUseCaseIMPL(repo: TreesUserRepoIMPL(infra: TreesInfra()))))
             
-            UsersView(usersViewModel: UsersViewModel(useCase: UseCaseIMPL(repo: UsersRepoIMPL(userInfra: UsersInfra()))))
+            //UsersView(usersViewModel: UsersViewModel(useCase: UseCaseIMPL(repo: UsersRepoIMPL(userInfra: UsersInfra()))))
+            
+           // ProdView(prodsViewModel: ProductsViewModel(useCase: ProdUseCaseIMPL(repo: ProdUserRepoIMPL(infra: ProdInfra()))))
 
+            PractView()
 
         }
     }
